@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Bar</title>
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav_left">
+                <div class="logo">
+                    <img src="./linkedin-logo.png" alt="LinkedIn logo"> 
+                </div>
+                <div class="nav_search">
+                    <div class="search_icon">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                    <input type="search" placeholder="Search" aria-label="Search">
+                </div>
+            </div>
+            
+            <div class="nav_right">
+                <div class="nav_menu">
+                    <i class="fa-solid fa-house-chimney"></i>
+                    <p>Home</p>
+                </div>
+                <div class="nav_menu">
+                    <i class="fa-solid fa-user-group"></i>
+                    <p>My Network</p>
+                </div>
+                <div class="nav_menu">
+                    <i class="fa-solid fa-briefcase"></i>
+                    <p>Jobs</p>
+                </div>
+                <div class="nav_menu">
+                    <i class="fa-solid fa-message"></i>
+                    <p>Messaging</p>
+                </div>
+                <div class="nav_menu">
+                    <i class="fa-solid fa-bell"></i>
+                    <p>Notifications</p>
+                </div>
+                <div class="nav_menu has-dropdown">
+                    <i class="fa-regular fa-circle-user"></i>
+                    <p>Profile <i class="fa-solid fa-caret-down"></i></p>
+                    <ul class="dropdown">
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">Qualification</a></li>
+                        <li><a href="#">Projects</a></li>
+                    </ul>
+                </div>
+                <div class="nav_menu has-dropdown">
+                    <i class="fa-solid fa-bars"></i>
+                    <p>Business <i class="fa-solid fa-caret-down"></i></p>
+                    <ul class="dropdown">
+                        <li><a href="#">Business Center</a></li>
+                        <li><a href="#">Analytics</a></li>
+                        <li><a href="#">Settings</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+</body>
+</html>
